@@ -1,5 +1,4 @@
 package Olf.FMX.Extend;
-
 {$R *.res}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
@@ -30,7 +29,10 @@ package Olf.FMX.Extend;
 
 requires
   rtl,
-  fmx;
+  fmx,
+  bindengine,
+  bindcomp,
+  bindcompfmx;
 
 contains
   Olf.FMX.Effects in '..\..\sources\Olf.FMX.Effects.pas';

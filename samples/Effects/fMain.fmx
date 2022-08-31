@@ -14014,6 +14014,10 @@ object Form1: TForm1
         'rtin'
       TabOrder = 0
     end
+    object OlfRotateEffect1: TOlfRotateEffect
+      Enabled = False
+      Rotation = 90.000000000000000000
+    end
   end
   object ListBox1: TListBox
     Align = Left
@@ -14037,7 +14041,7 @@ object Form1: TForm1
       Size.Width = 325.000000000000000000
       Size.Height = 50.000000000000000000
       Size.PlatformDefault = False
-      TabOrder = 2
+      TabOrder = 3
       Text = 'no effect'
       OnClick = lbiNoEffectClick
     end
@@ -14055,9 +14059,53 @@ object Form1: TForm1
       Size.Width = 325.000000000000000000
       Size.Height = 50.000000000000000000
       Size.PlatformDefault = False
-      TabOrder = 1
+      TabOrder = 2
       Text = 'Flip Vertical'
       OnClick = lbiFlipVerticalClick
+    end
+    object lbiRotateEffect: TListBoxItem
+      Position.Y = 150.000000000000000000
+      Size.Width = 325.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Rotate'
+      OnClick = lbiRotateEffectClick
+      object Label2: TLabel
+        Position.X = 47.000000000000000000
+        Position.Y = 17.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = '90'#176
+        TabOrder = 40
+      end
+      object adRotation: TArcDial
+        Position.X = 152.000000000000000000
+        Position.Y = 12.000000000000000000
+        RotationAngle = 90.000000000000000000
+        TabOrder = 41
+      end
+    end
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 20
+    Top = 5
+    object LinkControlToPropertyText: TLinkControlToProperty
+      Category = 'Liaisons rapides'
+      Control = adRotation
+      Component = Label2
+      ComponentProperty = 'Text'
+      CustomFormat = 'Format('#39'%%3.0f'#176#39',value)'
+    end
+    object LinkControlToPropertyRotation: TLinkControlToProperty
+      Category = 'Liaisons rapides'
+      Control = adRotation
+      Component = OlfRotateEffect1
+      ComponentProperty = 'Rotation'
+      InitializeControlValue = False
     end
   end
 end
