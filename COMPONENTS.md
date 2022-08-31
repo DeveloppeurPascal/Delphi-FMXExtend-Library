@@ -4,3 +4,4 @@
 
 * TOlfFlipHorizontalEffect to horizontally flip the visual component
 * TOlfFlipVerticalEffect to verticaly flip the visual component
+* TOlfRotateEffect to rotate the visual component
