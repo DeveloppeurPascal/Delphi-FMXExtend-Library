@@ -21,6 +21,10 @@ Vous pouvez ensuite tester les projets de démo situés dans le dossier "samples
 
 -----
 
+Pour afficher les composants effets prenant en charge LiveBindings sur le concepteur visuel, allez dans Outils / Options / IDE / LiveBindings et ajoutez "TOlfLiveBindedEffect" à la liste des éléments inclus.
+
+-----
+
 Si vous ne connaissez pas Delphi et le langage Pascal, profitez de la version Academic (pour les étudiants, enseignants et établissements d'enseignement) ou Community Edition (gratuite pour une utilisation personnelle) disponibles chez Embarcadero (rubrique "outils gratuits").
 En entreprise vous pouvez aussi tester Delphi avec la version d'évaluation.
 https://www.embarcadero.com/products/delphi
