@@ -4,7 +4,7 @@ uses
   System.StartUpCopy,
   FMX.Forms,
   fMain in 'fMain.pas' {Form1},
-  Olf.FMX.Effects in '..\..\sources\Olf.FMX.Effects.pas';
+  Olf.FMX.Effects in '..\..\src\Olf.FMX.Effects.pas';
 
 {$R *.res}
 
