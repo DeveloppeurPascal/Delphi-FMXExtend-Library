@@ -1,13 +1,32 @@
 unit fMain;
+
 interface
+
 uses
-  System.SysUtils, System.Types, System.UITypes, System.Classes,
+  System.SysUtils,
+  System.Types,
+  System.UITypes,
+  System.Classes,
   System.Variants,
-  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
-  FMX.Controls.Presentation, FMX.StdCtrls, FMX.ListBox, FMX.Layouts,
-  Olf.FMX.Effects, FMX.Effects, FMX.Objects, Data.Bind.EngExt,
-  Fmx.Bind.DBEngExt, System.Rtti, System.Bindings.Outputs, Fmx.Bind.Editors,
+  FMX.Types,
+  FMX.Controls,
+  FMX.Forms,
+  FMX.Graphics,
+  FMX.Dialogs,
+  FMX.Controls.Presentation,
+  FMX.StdCtrls,
+  FMX.ListBox,
+  FMX.Layouts,
+  Olf.FMX.Effects,
+  FMX.Effects,
+  FMX.Objects,
+  Data.Bind.EngExt,
+  FMX.Bind.DBEngExt,
+  System.Rtti,
+  System.Bindings.Outputs,
+  FMX.Bind.Editors,
   Data.Bind.Components;
+
 type
   TForm1 = class(TForm)
     Image1: TImage;
@@ -35,10 +54,14 @@ type
   public
     { Déclarations publiques }
   end;
+
 var
   Form1: TForm1;
+
 implementation
+
 {$R *.fmx}
+
 procedure TForm1.lbiFlipHorizontalClick(Sender: TObject);
 begin
   if OlfFlipHorizontalEffect1.Enabled then
@@ -49,6 +72,7 @@ begin
     OlfFlipHorizontalEffect1.Enabled := true;
   end;
 end;
+
 procedure TForm1.lbiFlipVerticalClick(Sender: TObject);
 begin
   if OlfFlipVerticalEffect1.Enabled then
@@ -59,10 +83,12 @@ begin
     OlfFlipVerticalEffect1.Enabled := true;
   end;
 end;
+
 procedure TForm1.lbiNoEffectClick(Sender: TObject);
 begin
   StopEffects;
 end;
+
 procedure TForm1.lbiRotateEffectClick(Sender: TObject);
 begin
   if OlfFlipVerticalEffect1.Enabled then
@@ -70,7 +96,7 @@ begin
   else
   begin
     StopEffects;
-    OlfRotateEffect1.Data:=adRotation.Value;
+    OlfRotateEffect1.Data := adRotation.Value;
     OlfRotateEffect1.Enabled := true;
   end;
 end;
@@ -80,7 +106,8 @@ var
   i: integer;
 begin
   for i := 0 to ComponentCount - 1 do
-    if (components[i] is teffect) and ((components[i] as teffect).Enabled) then
-      (components[i] as teffect).Enabled := false;
+    if (Components[i] is teffect) and ((Components[i] as teffect).Enabled) then
+      (Components[i] as teffect).Enabled := false;
 end;
+
 end.
