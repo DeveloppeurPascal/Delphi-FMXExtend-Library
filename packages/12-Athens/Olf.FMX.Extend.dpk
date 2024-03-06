@@ -35,6 +35,7 @@ requires
   bindcompfmx;
 
 contains
-  Olf.FMX.Effects in '..\..\src\Olf.FMX.Effects.pas';
+  Olf.FMX.Effects in '..\..\src\Olf.FMX.Effects.pas',
+  Olf.FMX.SelectDirectory in '..\..\src\Olf.FMX.SelectDirectory.pas';
 
 end.

@@ -192,6 +192,7 @@
         <DCCReference Include="bindcomp.dcp"/>
         <DCCReference Include="bindcompfmx.dcp"/>
         <DCCReference Include="..\..\src\Olf.FMX.Effects.pas"/>
+        <DCCReference Include="..\..\src\Olf.FMX.SelectDirectory.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
