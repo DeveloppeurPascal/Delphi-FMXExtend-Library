@@ -28,6 +28,7 @@ type
   protected
   public
     function Execute: boolean;
+    constructor Create(AOwner: TComponent); override;
   published
     /// <summary>
     /// Text used as the dialog box title.
@@ -57,6 +58,14 @@ begin
 end;
 
 { TOlfSelectDirectoryDialog }
+
+constructor TOlfSelectDirectoryDialog.Create(AOwner: TComponent);
+begin
+  inherited;
+  FDirectory := '';
+  FText := '';
+  FRoot := '';
+end;
 
 function TOlfSelectDirectoryDialog.Execute: boolean;
 var
