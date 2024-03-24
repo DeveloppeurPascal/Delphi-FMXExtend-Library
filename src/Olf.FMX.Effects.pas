@@ -120,6 +120,7 @@ constructor TOlfRotateEffect.Create(AOwner: TComponent);
 begin
   inherited;
   FEffectStyle := [TEffectStyle.DisablePaint];
+  FRotation := 0;
 end;
 
 procedure TOlfRotateEffect.ObserverAdded(const ID: Integer;
