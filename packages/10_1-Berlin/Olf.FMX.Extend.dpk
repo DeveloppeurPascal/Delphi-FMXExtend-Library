@@ -1,0 +1,42 @@
+package Olf.FMX.Extend;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Delphi FMX Extend Library from Patrick PREMARTIN'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  fmx,
+  bindengine,
+  bindcomp,
+  bindcompfmx;
+
+contains
+  Olf.FMX.Effects in '..\..\src\Olf.FMX.Effects.pas',
+  Olf.FMX.SelectDirectory in '..\..\src\Olf.FMX.SelectDirectory.pas';
+
+end.
