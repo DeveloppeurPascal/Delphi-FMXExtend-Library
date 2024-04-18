@@ -18,8 +18,15 @@ type
   TOlfLiveBindedEffect = class(TEffect)
   end;
 
+{$IF CompilerVersion >= 33.0}
   [ComponentPlatformsAttribute(pfidWindows or pfidOSX or pfidLinux or
     pfidAndroid or pfidiOS)]
+{$ELSE}
+  [ComponentPlatformsAttribute(pidWin32 or pidWin64 or pidOSX32 or pidOSX64 or
+    pidiOSSimulator or pidiOSDevice32 or pidiOSDevice64 or pidAndroid or
+    pidAndroid64 or pidLinux64)]
+{$ENDIF}
+
   TOlfFlipHorizontalEffect = class(TEffect)
   private
   protected
@@ -32,8 +39,15 @@ type
     property trigger;
   end;
 
+{$IF CompilerVersion >= 33.0}
   [ComponentPlatformsAttribute(pfidWindows or pfidOSX or pfidLinux or
     pfidAndroid or pfidiOS)]
+{$ELSE}
+  [ComponentPlatformsAttribute(pidWin32 or pidWin64 or pidOSX32 or pidOSX64 or
+    pidiOSSimulator or pidiOSDevice32 or pidiOSDevice64 or pidAndroid or
+    pidAndroid64 or pidLinux64)]
+{$ENDIF}
+
   TOlfFlipVerticalEffect = class(TEffect)
   private
   protected
@@ -46,8 +60,15 @@ type
     property trigger;
   end;
 
+{$IF CompilerVersion >= 33.0}
   [ComponentPlatformsAttribute(pfidWindows or pfidOSX or pfidLinux or
     pfidAndroid or pfidiOS)]
+{$ELSE}
+  [ComponentPlatformsAttribute(pidWin32 or pidWin64 or pidOSX32 or pidOSX64 or
+    pidiOSSimulator or pidiOSDevice32 or pidiOSDevice64 or pidAndroid or
+    pidAndroid64 or pidLinux64)]
+{$ENDIF}
+
   TOlfRotateEffect = class(TOlfLiveBindedEffect)
   private
     FRotation: Single;
