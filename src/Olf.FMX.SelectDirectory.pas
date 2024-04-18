@@ -16,7 +16,12 @@ type
   /// The properties are used as it when calling the function.
   /// http://docwiki.embarcadero.com/Libraries/en/FMX.Dialogs.SelectDirectory
   /// </remarks>
+{$IF CompilerVersion >= 33.0}
   [ComponentPlatformsAttribute(pfidWindows or pfidOSX)]
+{$ELSE}
+  [ComponentPlatformsAttribute(pidWin32 or pidWin64 or pidOSX32 or pidOSX64)]
+{$ENDIF}
+
   TOlfSelectDirectoryDialog = class(TFMXObject)
   private
     FDirectory: string;
