@@ -1,6 +1,6 @@
 # Delphi FMX Extend Library
 
-[This page in english.](README.md)
+[This page in English.](README.md)
 
 Ensemble de composants FireMonkey pour les projets multiplateforme en Delphi.
 
