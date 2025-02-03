@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{4ABF9530-4CB2-4E12-9DFD-041B26433941}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="samples\Effects\EffectsSample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="samples\SelectDirectoryConception\SelectDirectoryFMX.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="packages\12-Athens\Olf.FMX.Extend.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="EffectsSample">
+        <MSBuild Projects="samples\Effects\EffectsSample.dproj"/>
+    </Target>
+    <Target Name="EffectsSample:Clean">
+        <MSBuild Projects="samples\Effects\EffectsSample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EffectsSample:Make">
+        <MSBuild Projects="samples\Effects\EffectsSample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="SelectDirectoryFMX">
+        <MSBuild Projects="samples\SelectDirectoryConception\SelectDirectoryFMX.dproj"/>
+    </Target>
+    <Target Name="SelectDirectoryFMX:Clean">
+        <MSBuild Projects="samples\SelectDirectoryConception\SelectDirectoryFMX.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="SelectDirectoryFMX:Make">
+        <MSBuild Projects="samples\SelectDirectoryConception\SelectDirectoryFMX.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Olf_FMX_Extend">
+        <MSBuild Projects="packages\12-Athens\Olf.FMX.Extend.dproj"/>
+    </Target>
+    <Target Name="Olf_FMX_Extend:Clean">
+        <MSBuild Projects="packages\12-Athens\Olf.FMX.Extend.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Olf_FMX_Extend:Make">
+        <MSBuild Projects="packages\12-Athens\Olf.FMX.Extend.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="EffectsSample;SelectDirectoryFMX;Olf_FMX_Extend"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="EffectsSample:Clean;SelectDirectoryFMX:Clean;Olf_FMX_Extend:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="EffectsSample:Make;SelectDirectoryFMX:Make;Olf_FMX_Extend:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
