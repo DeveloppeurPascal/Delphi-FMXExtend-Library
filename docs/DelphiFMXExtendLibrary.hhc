@@ -1,0 +1,611 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD>
+<BODY>
+    <OBJECT type="text/site properties">
+      <param name="Window Styles" value="0x800227">
+    </OBJECT>
+    <UL>      <LI> <OBJECT type="text/sitemap">
+          <param name="Name" value="Delphi FMX Extend Library">
+          <param name="Local" value="Delphi-FMX-Extend-Library.html">
+          </OBJECT>
+      <LI> <OBJECT type="text/sitemap">
+          <param name="Name" value="EffectsSample">
+          <param name="Local" value="EffectsSample.html">
+          </OBJECT>
+          <UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="Olf.FMX.Effects">
+                  <param name="Local" value="Olf.FMX.Effects.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TOlfFlipHorizontalEffect">
+                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipHorizontalEffect.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipHorizontalEffect.Create.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Enabled">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipHorizontalEffect.Enabled.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="trigger">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipHorizontalEffect.trigger.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ProcessEffect">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipHorizontalEffect.ProcessEffect.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TOlfFlipVerticalEffect">
+                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipVerticalEffect.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipVerticalEffect.Create.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Enabled">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipVerticalEffect.Enabled.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="trigger">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipVerticalEffect.trigger.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ProcessEffect">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipVerticalEffect.ProcessEffect.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TOlfLiveBindedEffect">
+                                  <param name="Local" value="Olf.FMX.Effects.TOlfLiveBindedEffect.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TOlfRotateEffect">
+                                  <param name="Local" value="Olf.FMX.Effects.TOlfRotateEffect.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfRotateEffect.Create.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Enabled">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfRotateEffect.Enabled.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Rotation">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfRotateEffect.Rotation.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="trigger">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfRotateEffect.trigger.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CanObserve">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfRotateEffect.CanObserve.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ObserverAdded">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfRotateEffect.ObserverAdded.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ProcessEffect">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfRotateEffect.ProcessEffect.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Routines">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="Register">
+                                  <param name="Local" value="Olf.FMX.Effects.Register.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="fMain">
+                  <param name="Local" value="fMain.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TForm1">
+                                  <param name="Local" value="fMain.TForm1.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lbiFlipHorizontalClick">
+                                                  <param name="Local" value="fMain.TForm1.lbiFlipHorizontalClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lbiFlipVerticalClick">
+                                                  <param name="Local" value="fMain.TForm1.lbiFlipVerticalClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lbiNoEffectClick">
+                                                  <param name="Local" value="fMain.TForm1.lbiNoEffectClick.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lbiRotateEffectClick">
+                                                  <param name="Local" value="fMain.TForm1.lbiRotateEffectClick.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="BindingsList1">
+                                                  <param name="Local" value="fMain.TForm1.BindingsList1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Image1">
+                                                  <param name="Local" value="fMain.TForm1.Image1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Label1">
+                                                  <param name="Local" value="fMain.TForm1.Label1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Label2">
+                                                  <param name="Local" value="fMain.TForm1.Label2.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="LinkControlToPropertyRotation">
+                                                  <param name="Local" value="fMain.TForm1.LinkControlToPropertyRotation.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="LinkControlToPropertyText">
+                                                  <param name="Local" value="fMain.TForm1.LinkControlToPropertyText.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ListBox1">
+                                                  <param name="Local" value="fMain.TForm1.ListBox1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="OlfFlipHorizontalEffect1">
+                                                  <param name="Local" value="fMain.TForm1.OlfFlipHorizontalEffect1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="OlfFlipVerticalEffect1">
+                                                  <param name="Local" value="fMain.TForm1.OlfFlipVerticalEffect1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="OlfRotateEffect1">
+                                                  <param name="Local" value="fMain.TForm1.OlfRotateEffect1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="adRotation">
+                                                  <param name="Local" value="fMain.TForm1.adRotation.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lbiFlipHorizontal">
+                                                  <param name="Local" value="fMain.TForm1.lbiFlipHorizontal.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lbiFlipVertical">
+                                                  <param name="Local" value="fMain.TForm1.lbiFlipVertical.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lbiNoEffect">
+                                                  <param name="Local" value="fMain.TForm1.lbiNoEffect.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="lbiRotateEffect">
+                                                  <param name="Local" value="fMain.TForm1.lbiRotateEffect.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Variables">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="Form1">
+                                  <param name="Local" value="fMain.Form1.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+          </UL>
+      <LI> <OBJECT type="text/sitemap">
+          <param name="Name" value="SelectDirectoryFMX">
+          <param name="Local" value="SelectDirectoryFMX.html">
+          </OBJECT>
+          <UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="Olf.FMX.SelectDirectory">
+                  <param name="Local" value="Olf.FMX.SelectDirectory.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TOlfSelectDirectoryDialog">
+                                  <param name="Local" value="Olf.FMX.SelectDirectory.TOlfSelectDirectoryDialog.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="Olf.FMX.SelectDirectory.TOlfSelectDirectoryDialog.Create.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Directory">
+                                                  <param name="Local" value="Olf.FMX.SelectDirectory.TOlfSelectDirectoryDialog.Directory.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Root">
+                                                  <param name="Local" value="Olf.FMX.SelectDirectory.TOlfSelectDirectoryDialog.Root.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Text">
+                                                  <param name="Local" value="Olf.FMX.SelectDirectory.TOlfSelectDirectoryDialog.Text.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Execute">
+                                                  <param name="Local" value="Olf.FMX.SelectDirectory.TOlfSelectDirectoryDialog.Execute.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Routines">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="Register">
+                                  <param name="Local" value="Olf.FMX.SelectDirectory.Register.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="fMain">
+                  <param name="Local" value="fMain.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TForm2">
+                                  <param name="Local" value="fMain.TForm2.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Button1Click">
+                                                  <param name="Local" value="fMain.TForm2.Button1Click.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Fields">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Button1">
+                                                  <param name="Local" value="fMain.TForm2.Button1.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Memo1">
+                                                  <param name="Local" value="fMain.TForm2.Memo1.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Variables">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="Form2">
+                                  <param name="Local" value="fMain.Form2.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+          </UL>
+      <LI> <OBJECT type="text/sitemap">
+          <param name="Name" value="Olf.FMX.Extend">
+          <param name="Local" value="Olf.FMX.Extend.html">
+          </OBJECT>
+          <UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="Olf.FMX.Effects">
+                  <param name="Local" value="Olf.FMX.Effects.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TOlfFlipHorizontalEffect">
+                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipHorizontalEffect.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipHorizontalEffect.Create.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Enabled">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipHorizontalEffect.Enabled.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="trigger">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipHorizontalEffect.trigger.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ProcessEffect">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipHorizontalEffect.ProcessEffect.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TOlfFlipVerticalEffect">
+                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipVerticalEffect.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipVerticalEffect.Create.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Enabled">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipVerticalEffect.Enabled.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="trigger">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipVerticalEffect.trigger.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ProcessEffect">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfFlipVerticalEffect.ProcessEffect.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TOlfLiveBindedEffect">
+                                  <param name="Local" value="Olf.FMX.Effects.TOlfLiveBindedEffect.html">
+                                  </OBJECT>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TOlfRotateEffect">
+                                  <param name="Local" value="Olf.FMX.Effects.TOlfRotateEffect.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfRotateEffect.Create.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Enabled">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfRotateEffect.Enabled.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Rotation">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfRotateEffect.Rotation.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="trigger">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfRotateEffect.trigger.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="CanObserve">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfRotateEffect.CanObserve.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ObserverAdded">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfRotateEffect.ObserverAdded.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="ProcessEffect">
+                                                  <param name="Local" value="Olf.FMX.Effects.TOlfRotateEffect.ProcessEffect.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Routines">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="Register">
+                                  <param name="Local" value="Olf.FMX.Effects.Register.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+              <LI> <OBJECT type="text/sitemap">
+                  <param name="Name" value="Olf.FMX.SelectDirectory">
+                  <param name="Local" value="Olf.FMX.SelectDirectory.html">
+                  </OBJECT>
+                  <UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Classes">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="TOlfSelectDirectoryDialog">
+                                  <param name="Local" value="Olf.FMX.SelectDirectory.TOlfSelectDirectoryDialog.html">
+                                  </OBJECT>
+                                  <UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Constructors">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Create">
+                                                  <param name="Local" value="Olf.FMX.SelectDirectory.TOlfSelectDirectoryDialog.Create.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Properties">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Directory">
+                                                  <param name="Local" value="Olf.FMX.SelectDirectory.TOlfSelectDirectoryDialog.Directory.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Root">
+                                                  <param name="Local" value="Olf.FMX.SelectDirectory.TOlfSelectDirectoryDialog.Root.html">
+                                                  </OBJECT>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Text">
+                                                  <param name="Local" value="Olf.FMX.SelectDirectory.TOlfSelectDirectoryDialog.Text.html">
+                                                  </OBJECT>
+                                          </UL>
+                                      <LI> <OBJECT type="text/sitemap">
+                                          <param name="Name" value="Methods">
+                                          </OBJECT>
+                                          <UL>
+                                              <LI> <OBJECT type="text/sitemap">
+                                                  <param name="Name" value="Execute">
+                                                  <param name="Local" value="Olf.FMX.SelectDirectory.TOlfSelectDirectoryDialog.Execute.html">
+                                                  </OBJECT>
+                                          </UL>
+                                  </UL>
+                          </UL>
+                      <LI> <OBJECT type="text/sitemap">
+                          <param name="Name" value="Routines">
+                          </OBJECT>
+                          <UL>
+                              <LI> <OBJECT type="text/sitemap">
+                                  <param name="Name" value="Register">
+                                  <param name="Local" value="Olf.FMX.SelectDirectory.Register.html">
+                                  </OBJECT>
+                          </UL>
+                  </UL>
+          </UL>
+    </UL>
+</BODY>
+</HTML>
