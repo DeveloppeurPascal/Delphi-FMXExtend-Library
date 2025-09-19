@@ -1,0 +1,77 @@
+﻿(* C2PP
+  ***************************************************************************
+
+  Delphi FMX Extend Library
+
+  Copyright 2021-2025 Patrick Prémartin under AGPL 3.0 license.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+  THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+  DEALINGS IN THE SOFTWARE.
+
+  ***************************************************************************
+
+  Set of FireMonkey components for Delphi multi-platform projects.
+
+  ***************************************************************************
+
+  Author(s) :
+  Patrick PREMARTIN
+
+  Site :
+  https://fmxextend.developpeur-pascal.fr/
+
+  Project site :
+  https://github.com/DeveloppeurPascal/Delphi-FMXExtend-Library
+
+  ***************************************************************************
+  File last update : 2025-09-19T19:08:54.000+02:00
+  Signature : 5fb6bf56a219e6b66e812dca36f2c70f5c98001e
+  ***************************************************************************
+*)
+
+package Olf.FMX.Extend;
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS ON}
+{$RANGECHECKS ON}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Delphi FMX Extend Library from Patrick PREMARTIN'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  fmx,
+  bindengine,
+  bindcomp,
+  bindcompfmx;
+
+contains
+  Olf.FMX.Effects in '..\..\src\Olf.FMX.Effects.pas',
+  Olf.FMX.SelectDirectory in '..\..\src\Olf.FMX.SelectDirectory.pas';
+
+end.
